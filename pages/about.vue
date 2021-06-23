@@ -4,10 +4,13 @@
 
 <script>
 export default {
-    head(){
-        return {
-            title: 'About Page',
-        }
+  head(){
+    return {
+      title: 'Aboutページ',
+      meta:[
+        { hid: 'description', name: 'description', content: 'これはAboutページです。'}
+      ]
     }
+  }
 }
 </script>
